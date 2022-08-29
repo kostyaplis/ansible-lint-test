@@ -1,5 +1,5 @@
 - hosts: localhost
   tasks:
     - name: test
-      shell: echo test
+      ansible.builtin.shell: echo test
       no_log: true
